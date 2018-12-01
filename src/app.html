@@ -1,3 +1,14 @@
 <template>
-  <h1>${message}</h1>
+  <require from='./resources/sass/main.scss'></require>
+  <compose view-model="./navbar"></compose>
+
+  <router-view></router-view>
+
+  <footer class="page-footer font-small bg-primary">
+
+      <div class="footer-copyright text-center py-3">
+        Copyright SparkleTime 2018
+      </div>
+
+  </footer>
 </template>
